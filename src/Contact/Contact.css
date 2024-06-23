@@ -1,0 +1,32 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 35px;
+    width: 100vw;
+    height: 37.4em;
+    background-color: aquamarine;
+    img {
+        width: 150px;
+    }
+}
+
+.Contact img, 
+.Contact h1, 
+.Contact h2,
+.Contact p {
+    animation: slideInFromLeft 1.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

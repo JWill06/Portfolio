@@ -1,0 +1,9 @@
+.Work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    background-color: cadetblue;
+    height: 37.4em;
+    width: 100vw;
+}

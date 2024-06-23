@@ -1,0 +1,52 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5CE1E6
+}
+
+.homePageLogo {
+    height: 68vh;
+    width: 1000px;
+    background-color: white;
+    animation: slideInFromLeft 1.5s ease-in-out forwards;
+}
+
+.home-buttons {
+    display: flex;
+    margin: 7.5vh;
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    justify-content: space-around;
+    animation: slideInFromLeft 1.5s ease-in-out forwards;
+}
+
+.button.homeButton {
+  text-decoration: none;
+  background-color: white;
+  box-shadow: none;
+  border-radius: 5rem;
+  padding: 0.7em 2em;
+  letter-spacing: 0.4em;
+  font-size: 80%;
+}
+
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
