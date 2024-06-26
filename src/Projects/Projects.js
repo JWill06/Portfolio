@@ -25,7 +25,7 @@ const Projects = ({project}) => {
                     <img className='link' alt='github link'src={GitHub} />
                 </a>
                 {project.deployed_link === "https://jwill06.github.io/tic-tac-toe/" ? <div><p>Click on the Taco emoji to play!</p> <a className="deployedLink" href={project.deployed_link}>🌮</a></div> : null}
-                {project.deployed_link === "https://jwill06.github.io/coloRandom/" ? <div><p>Click on any Colored Box emoji to make some palletts!</p> <a className="deployedLink" href={project.deployed_link}>🟦 🟧 🟨 🟩</a></div> : null}
+                {project.deployed_link === "https://jwill06.github.io/coloRandom/" ? <div><p>Click on any Colored Box emoji to make some pallettes!</p> <a className="deployedLink" href={project.deployed_link}>🟦 🟧 🟨 🟩</a></div> : null}
 
             </div>
             {project.funny ? <p className='hidden funny'>{project.funny}</p> : null}
