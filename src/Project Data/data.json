@@ -11,10 +11,11 @@
     {
         "name": "ColoRandom",
         "id": "colorandom",
-        "description": "A random color palette application where a user can lock their favorite colors within the pallet and can also save their favorite pallets. This was a group project with four team members. We calculated the project time ",
+        "description": "A random color palettes application where a user can lock their favorite colors within the pallet and can also save their favorite pallettes. This was a group project with four team members. We calculated the project time to be around 40 hours total.",
         "built": "HTML, CSS, JavaScript",
         "gif": "/coloRandom-preview.gif",
-        "repo_link": "https://github.com/JWill06/coloRandom"
+        "repo_link": "https://github.com/JWill06/coloRandom",
+        "deployed_link": "https://jwill06.github.io/coloRandom/"
     },
     {
         "name": "Tic-Tac-Toe",
@@ -23,6 +24,7 @@
         "built": "HTML, CSS, JavaScript",
         "gif": "/tic-tac-toe.gif",
         "repo_link": "https://github.com/JWill06/tic-tac-toe",
+        "deployed_link": "https://jwill06.github.io/tic-tac-toe/",
         "funny": "24:7 tacos"
     }
 ]
