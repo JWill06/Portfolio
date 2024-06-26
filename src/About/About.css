@@ -1,7 +1,7 @@
 .About {
   text-align: start;
   text-overflow: wrap;
-  height: fit-content;
+  height: 50%;
   margin: 0;
   padding: 0;
 
@@ -35,18 +35,18 @@
   text-decoration: none;
   background-color: white;
   border-radius: 5rem;
-  padding: 0.7em 2em;
+  padding: 1rem 2rem;
   letter-spacing: 0.4em;
   font-size: 80%;
 }
 
 .workButton {
   position: absolute;
-  bottom: 8%;
-  left: 42%;
+  display: flex;
+  bottom: 6%;
   width: 100%;
   font-size: 34px;
   font-weight: bold;
-  animation: slideInFromLeft 1.5s ease-in-out forwards;
+  justify-content: space-evenly;
 }
 

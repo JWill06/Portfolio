@@ -15,10 +15,11 @@ function About() {
           I have a goal of creating applications and websites that can help those with disabilities in this ever growing technological world. <br/>
           As someone with two special needs children I want to make things more accessible for those with different needs.
         </p>
-      </header>
         <div className="workButton">
                 <NavLink className="button workLink" to="/work">SEE MY WORK</NavLink>
+                <NavLink className="button workLink" to="/contact">CONTACT ME</NavLink>
         </div>
+      </header>
     </div>
   );
 }
