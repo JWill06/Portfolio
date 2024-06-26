@@ -44,3 +44,9 @@
 .funny:hover {
     color: black;
 }
+
+.deployedLink {
+    font-size: 150px;
+    text-decoration: none;
+    margin-bottom: 15%;
+}
