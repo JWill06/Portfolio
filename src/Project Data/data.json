@@ -5,7 +5,7 @@
         "id": "traveltracker",
         "description": "An application to let users see their previous trips and spent amount. It also allows users to get estimates for future trips as well as booking a new trip. This a solo project calculated at about 50 hours of total work time.",
         "built":"HTML, CSS, JavaScript",
-        "gif": "/travel-tracker-preview.gif",
+        "gif": "/travel-tracker.gif",
         "repo_link": "https://github.com/JWill06/Travel-Tracker"
     },
     {
