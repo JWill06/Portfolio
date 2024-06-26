@@ -22,14 +22,13 @@
     width: 100%;
     font-size: 34px;
     font-weight: bold;
-    justify-content: space-around;
+    justify-content: space-evenly;
     animation: slideInFromLeft 1.5s ease-in-out forwards;
 }
 
 .button.homeButton {
   text-decoration: none;
   background-color: white;
-  box-shadow: none;
   border-radius: 5rem;
   padding: 0.7em 2em;
   letter-spacing: 0.4em;

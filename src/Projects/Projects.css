@@ -1,0 +1,46 @@
+.gif {
+    width: 40em; 
+    margin: 55px;
+    height: 80%;
+    padding: 10px;
+}
+
+.icons {
+    width: 15%;
+}
+
+.preview {
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    font-size: 1.2em;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+.text {
+    margin: 20px
+}
+
+.text h1{
+    font-size: 2em;
+    padding-bottom: 0.3em;
+  }
+
+.link {
+    width: 25%;
+    height: 15%;
+    color: white;
+}
+
+.funny {
+    position: absolute;
+    left: 25%;
+    color: lightblue
+}
+
+.funny:hover {
+    color: black;
+}

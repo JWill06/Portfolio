@@ -1,10 +1,13 @@
 import './Work.css'
+import data from '../Project Data/data.json'
+import Projects from '../Projects/Projects'
 
 const Work = () => {
+
     return (
         <div className='Work'>
-            <h1>Here is some of my previous projects!</h1>
-            <h2>Projects go here</h2>
+            <h1>MY WORK</h1>
+            {data.map(project => <Projects project={project}/>)}
 
         </div>
     )

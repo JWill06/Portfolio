@@ -1,9 +1,8 @@
 .Work {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 25px;
-    background-color: cadetblue;
-    height: 37.4em;
-    width: 100vw;
-}
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

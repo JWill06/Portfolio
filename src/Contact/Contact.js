@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className='Contact'>
             <h1>Contact me or checkout my GitHub!</h1>
-            <img src={emailIcon}></img>
+            <img src={emailIcon} alt="Gmail Icon"></img>
             <p>williamsonjordan05@gmail.com</p>
             <h2>Click the icon below to see my GitHub!</h2>
             <a href="https://github.com/JWill06">
