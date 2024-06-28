@@ -1,6 +1,11 @@
 import { NavLink }from "react-router-dom"
 import './NavBar.css'
 import { useState } from 'react'
+import hamburger from '../images/icons8-menu.svg'
+import home from '../images/icons8-home.gif'
+import person from '../images/icons8-person.gif'
+import work from '../images/icons8-work-50.png'
+import contact from '../images/icons8-contact-80.png'
 
 
     const NavBar = () => {
@@ -11,11 +16,11 @@ import { useState } from 'react'
 
         return (
             <div className='dropdown'>
-                <button className="menu-button toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}><span className="material-symbols-rounded menu-button">Menu</span></button>
-                <NavLink to="/" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">HOME</NavLink>
-                <NavLink to="/About" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">ABOUT ME</NavLink>
-                <NavLink to="work" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">MY WORK</NavLink>
-                <NavLink to="/contact" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">CONTACT</NavLink>
+                <button className="menu-button toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}><img alt='menu'src={hamburger}/></button>
+                <NavLink to="/" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">HOME <img src={home} /></NavLink>
+                <NavLink to="/About" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">ABOUT ME <img src={person} /></NavLink>
+                <NavLink to="work" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">MY WORK <img src={work} /></NavLink>
+                <NavLink to="/contact" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">CONTACT <img src={contact} /></NavLink>
             </div>
         )
     }
@@ -24,7 +29,7 @@ import { useState } from 'react'
         <>
         <div className='nav'>
             <NavLink className="nav-logo" to="/"></NavLink>
-            <button className="menu-button" onClick={() => {setNavExpanded(!navExpanded)}}><span className="material-symbols-rounded menu-button">Menu</span></button>
+            <button className="menu-button" onClick={() => {setNavExpanded(!navExpanded)}}><img alt='menu'src={hamburger}/></button>
         </div>
         {navExpanded && buttonDisplay()}
         </>

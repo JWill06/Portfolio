@@ -1,17 +1,17 @@
 * {
-  font-family: "Oswald", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .Home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #5CE1E6
+    background-color: #B5E0E1
 }
 
 .homePageLogo {
     height: 68vh;
-    width: 1000px;
+    width: 1100px;
     background-color: white;
     animation: slideInFromLeft 1.5s ease-in-out forwards;
 }
@@ -35,9 +35,6 @@
   font-size: 80%;
 }
 
-
-
-
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -49,3 +46,6 @@
     }
   }
 
+@media () {
+  
+}

@@ -17,6 +17,7 @@ function About() {
         </p>
         <div className="workButton">
                 <NavLink className="button workLink" to="/work">SEE MY WORK</NavLink>
+                <a className='button workLink' href={`${process.env.PUBLIC_URL}/resume.pdf`}>MY RESUME</a>
                 <NavLink className="button workLink" to="/contact">CONTACT ME</NavLink>
         </div>
       </header>

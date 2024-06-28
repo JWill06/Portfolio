@@ -6,9 +6,12 @@
     font-size: 35px;
     width: 100vw;
     height: 37.4em;
-    background-color: aquamarine;
+    background-color: #B5E0E1;
     img {
-        width: 150px;
+        width: 180px;
+    }
+    p {
+      font-size: 50px;
     }
 }
 
@@ -20,6 +23,15 @@
     opacity: 0;
 }
 
+h1, 
+h2 {
+  font-family: "Montserrat", sans-serif;;
+}
+
+.socials {
+  margin-left: 350px;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -28,5 +40,20 @@
     100% {
       transform: translateX(0);
       opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    h1, h2, p, a, .socials {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1.2rem;
+      margin: 0;
+    }
+    .contact {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
     }
   }
