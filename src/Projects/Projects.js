@@ -3,7 +3,6 @@ import js from '../images/icons8-js.svg'
 import css from '../images/icons8-css-100.svg'
 import html from '../images/icons8-html.svg'
 import './Projects.css'
-import { NavLink } from 'react-router-dom'
 
 const Projects = ({project}) => {
     return (
