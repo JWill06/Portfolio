@@ -9,3 +9,17 @@
         font-family: "Montserrat", sans-serif;
     }
   }
+
+  @media (max-width: 480px){
+    .work {
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgrey;
+        h1 {
+            font-size: 10px;
+            font-family: "Montserrat", sans-serif;
+        }
+    }
+  }

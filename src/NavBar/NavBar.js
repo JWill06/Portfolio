@@ -17,10 +17,10 @@ import contact from '../images/icons8-contact-80.png'
         return (
             <div className='dropdown'>
                 <button className="menu-button toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}><img alt='menu'src={hamburger}/></button>
-                <NavLink to="/" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">HOME <img src={home} /></NavLink>
-                <NavLink to="/About" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">ABOUT ME <img src={person} /></NavLink>
-                <NavLink to="work" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">MY WORK <img src={work} /></NavLink>
-                <NavLink to="/contact" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">CONTACT <img src={contact} /></NavLink>
+                <NavLink to="/" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">HOME <img className='navIcon' alt="home" src={home} /></NavLink>
+                <NavLink to="/About" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">ABOUT ME <img className='navIcon' alt='person'src={person} /></NavLink>
+                <NavLink to="work" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">MY WORK <img className='navIcon' alt='work'src={work} /></NavLink>
+                <NavLink to="/contact" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">CONTACT <img className='navIcon' alt='contact'src={contact} /></NavLink>
             </div>
         )
     }

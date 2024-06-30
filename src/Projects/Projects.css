@@ -53,3 +53,87 @@ h1 {
     text-decoration: none;
     margin-bottom: 15%;
 }
+
+@media (min-width: 100px) and (max-width: 480px) {
+    .gif {
+        width: 11.5em; 
+        height: 40%;
+    }
+    
+    .icons {
+        width: 10%;
+    }
+    
+    .preview {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 20px;
+        font-size: 1.2em;
+        color: black;
+        background-color: lightblue;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    h1 {
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+    
+    .text h1{
+        font-size: 2em;
+        padding-bottom: 0.3em;
+      }
+    
+    .link {
+        width: 15%;
+        height: 15%;
+        margin-left: 150px;
+        color: white;
+    }
+    
+    .funny {
+        position: absolute;
+        left: 25%;
+        color: lightblue
+    }
+    
+    .funny:hover {
+        color: black;
+    }
+    
+    .deployedLink {
+        font-size: 100px;
+        text-decoration: none;
+        margin-bottom: 15%;
+    }
+}
+
+@media (min-width: 391) and (max-width: 445px){
+    .link{
+        margin-left: 125px
+    }
+}
+
+@media (min-width: 270px) and (max-width: 390px){
+    .gif{
+        width: 8em;
+    }
+    .link {
+        margin-left: 115px;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 269px){
+    .gif {
+        width: 5em
+    }
+    .link {
+        margin-left: 70px;
+    }
+}
