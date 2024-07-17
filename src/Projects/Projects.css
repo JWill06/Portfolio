@@ -2,6 +2,15 @@
     width: 40em; 
     margin: 55px;
     height: 80%;
+    padding: auto;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: auto;
+    width: 90%;
 }
 
 .icons {
@@ -60,6 +69,13 @@ h1 {
         width: 20em;
         height: 15em;
     }
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        height: auto;
+        width: 90%;
+    }
     .icons {
         width: 15%;
     }
@@ -78,6 +94,14 @@ h1 {
     .gif{
         width: 20em;
         height: 10em;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        height: auto;
+        width: 90%;
     }
     .icons {
         width: 15%;
@@ -102,6 +126,14 @@ h1 {
     .gif {
         width: 11.5em; 
         height: 40%;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        height: auto;
+        width: 90%;
     }
     
     .icons {
@@ -143,6 +175,14 @@ h1 {
     .gif {
         width: 11em; 
         height: 40%;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        height: auto;
+        width: 90%;
     }
     
     .icons {
