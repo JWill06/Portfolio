@@ -3,23 +3,23 @@
     font-size: 25px;
     flex-direction: column;
     align-items: center;
-    background-color: lightgrey;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    justify-content: center;
+    background-color: grey;
+    width: 98.9vw;
+    max-width: 100vw;
     h1 {
+        font-size: 60px;
         font-family: "Montserrat", sans-serif;
     }
   }
 
-  @media (max-width: 480px){
+
+  @media (min-width: 100px) and (max-width: 393px){
     .work {
-        display: flex;
-        font-size: 15px;
-        flex-direction: column;
-        align-items: center;
-        background-color: lightgrey;
+        width: 60vw;
+        height: 100vh;
         h1 {
             font-size: 10px;
-            font-family: "Montserrat", sans-serif;
         }
     }
   }
