@@ -6,9 +6,9 @@ import linkedIn from '../images/icons8-linkedin.svg'
 const Contact = () => {
     return (
         <div className='Contact'>
-            <h1>Contact me or checkout my GitHub!</h1>
+            <h1 className='contactHeader'>Contact me or checkout my GitHub!</h1>
             <img src={emailIcon} alt="Gmail Icon"></img>
-            <p>williamsonjordan05@gmail.com</p>
+            <p className='email'>williamsonjordan05@gmail.com</p>
             <div className='accounts'>
             <h2>Click either icon below to see my GitHub or LinkedIn!</h2>
             <a href="https://github.com/JWill06">

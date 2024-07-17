@@ -9,7 +9,7 @@ const Home = () => {
             
             <div className="home-buttons">
                 <NavLink className="button homeButton" to="/About">LEARN ABOUT ME</NavLink>
-                <NavLink className="button homeButton" to="/work">SEE MORE OF MY WORK</NavLink>
+                <NavLink className="button homeButton" to="/work">SEE MY WORK</NavLink>
             </div>
         </div>
     )
