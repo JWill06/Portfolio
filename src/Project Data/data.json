@@ -1,18 +1,45 @@
 
 [
     {
+        "name": "REMOTE JOB LOCATOR",
+        "id": "remotejoblocator",
+        "description": "An application that updates with newly listed remote job postings. Users are able to search for posting either by the title of the job or location for the candidate or both. This was a solo project and took a total of 40 hours to complete",
+        "built": ["HTML", "CSS", "React"],
+        "gif": "/remote-job-locator.gif",
+        "repo_link": "https://github.com/JWill06/Remote-Job-Locator",
+        "deployed_link": "https://art-collector-ten.vercel.app/"
+    },
+    {
+        "name": "RANCID TOMATILLOS",
+        "id": "rancidTomatillos",
+        "description": "An application that allows user's to see different movies almost like Rancid Tomatoes. This was a paired project and took us about 40 hours to complete",
+        "built": ["HTML", "CSS", "React"],
+        "gif": "/rancid-tomatillos2.gif",
+        "repo_link": "https://github.com/JWill06/rancid_tomatillos",
+        "deployed_link": "https://art-collector-ten.vercel.app/"
+    },
+    {
+        "name": "ART COLLECTOR",
+        "id": "artCollector",
+        "description": "An application that allows user's to see different pieces of Art and allow them to save it to their own gallery page. This was a group project where we all individually learned Typescript and the total time took us about 45 hours to complete",
+        "built": ["HTML", "CSS", "React", "Typescript"],
+        "gif": "/artCollector.gif",
+        "repo_link": "https://github.com/JWill06/art-collector",
+        "deployed_link": "https://art-collector-ten.vercel.app"
+    },
+    {
         "name": "TRAVEL TRACKER",
-        "id": "traveltracker",
+        "id": "travelTracker",
         "description": "An application to let users see their previous trips and spent amount. It also allows users to get estimates for future trips as well as booking a new trip. This a solo project calculated at about 50 hours of total work time.",
-        "built":"HTML, CSS, JavaScript",
+        "built": ["HTML", "CSS", "JavaScript"],
         "gif": "/travel-tracker.gif",
         "repo_link": "https://github.com/JWill06/Travel-Tracker"
     },
     {
         "name": "COLORANDOM",
-        "id": "colorandom",
+        "id": "coloRandom",
         "description": "A random color palettes application where a user can lock their favorite colors within the pallet and can also save their favorite pallettes. This was a group project with four team members. We calculated the project time to be around 40 hours total.",
-        "built": "HTML, CSS, JavaScript",
+        "built": ["HTML", "CSS", "JavaScript"],
         "gif": "/coloRandom-preview.gif",
         "repo_link": "https://github.com/JWill06/coloRandom",
         "deployed_link": "https://jwill06.github.io/coloRandom/"
@@ -21,7 +48,7 @@
         "name": "TIC-TAC-TOE",
         "id": "tictactoe",
         "description": "A version of Tic-Tac-Toe with a burrito and taco. A fun interactive game where the user can play against a friend on the same computer and they can switch characters after each round.",
-        "built": "HTML, CSS, JavaScript",
+        "built": ["HTML", "CSS", "JavaScript"],
         "gif": "/tic-tac-toe.gif",
         "repo_link": "https://github.com/JWill06/tic-tac-toe",
         "deployed_link": "https://jwill06.github.io/tic-tac-toe/",

@@ -34,7 +34,7 @@
   padding: 1rem 2rem;
   margin: 5px;
   letter-spacing: 0.4em;
-  font-size: 28px;
+  font-size: 20px;
   color: black;
   text-align: center;
 }
@@ -72,7 +72,7 @@
   }
 
   .button.workLink {
-    font-size: 25px;
+    font-size: 20px;
   }
 
 }
