@@ -7,7 +7,7 @@
         "built": ["HTML", "CSS", "React"],
         "gif": "/remote-job-locator.gif",
         "repo_link": "https://github.com/JWill06/Remote-Job-Locator",
-        "deployed_link": "https://art-collector-ten.vercel.app/"
+        "deployed_link": "https://remote-job-locator.vercel.app/"
     },
     {
         "name": "RANCID TOMATILLOS",
@@ -15,8 +15,7 @@
         "description": "An application that allows user's to see different movies almost like Rancid Tomatoes. This was a paired project and took us about 40 hours to complete",
         "built": ["HTML", "CSS", "React"],
         "gif": "/rancid-tomatillos2.gif",
-        "repo_link": "https://github.com/JWill06/rancid_tomatillos",
-        "deployed_link": "https://art-collector-ten.vercel.app/"
+        "repo_link": "https://github.com/JWill06/rancid_tomatillos"
     },
     {
         "name": "ART COLLECTOR",
