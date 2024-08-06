@@ -37,7 +37,7 @@ const Projects = ({project}) => {
                 {project.deployed_link === "https://jwill06.github.io/tic-tac-toe/" ? <div><p><strong>Click on the Taco emoji to play!</strong></p> <a className="deployedLink" href={project.deployed_link}>🌮</a></div> : null}
                 {project.deployed_link === "https://jwill06.github.io/coloRandom/" ? <div><p><strong>Click on any Colored Box emoji to make some pallettes!</strong></p> <a className="deployedLink" href={project.deployed_link}>🟦 🟧 🟨 🟩</a></div> : null}
                 {project.deployed_link === "https://art-collector-ten.vercel.app" ? <div><p><strong>Click on the art to see some art!</strong></p> <a className="deployedLink" href={project.deployed_link}>🖼️</a></div> : null}
-                {project.deployed_link === "https://art-collector-ten.vercel.app/" ? <div><p><strong>Click on the remote workers to find some postings!</strong></p> <a className="deployedLink" href={project.deployed_link}>👨🏽‍💻👨🏻‍💻👩🏼‍💻👩🏽‍💻</a></div> : null}
+                {project.repo_link === "https://github.com/JWill06/Remote-Job-Locator" ? <div><p><strong>Click on the remote workers to find some postings!</strong></p> <a className="deployedLink" href={project.deployed_link}>👨🏽‍💻👨🏻‍💻👩🏼‍💻👩🏽‍💻</a></div> : null}
             </div>
             {project.funny ? <p className='hidden funny'>{project.funny}</p> : null}
         </div>
