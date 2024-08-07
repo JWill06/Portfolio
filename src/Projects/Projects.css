@@ -14,11 +14,12 @@
 }
 
 .icons {
-    width: 15%;
+    width: 8%;
 }
 
 .preview {
     display: flex;
+    flex-direction: column;
     width: 90%;
     font-size: 1.2em;
     color: black;
@@ -45,15 +46,13 @@ h1 {
 
 
 .link {
-    width: 10%;
+    width: 5%;
     height: 10%;
     color: white;
 }
 
 .funny {
-    position: absolute;
-    left: 25%;
-    color: lightblue
+   display: none;
 }
 
 .funny:hover {
@@ -61,12 +60,12 @@ h1 {
 }
 
 .deployedLink {
-    font-size: 100px;
+    font-size: 80px;
     text-decoration: none;
     margin-bottom: 15%;
 }
 
-@media (min-width: 821px) and (max-width: 1599px){
+@media (min-width: 821px) and (max-width: 1558px){
     .gif{
         width: 20em;
         height: 15em;
