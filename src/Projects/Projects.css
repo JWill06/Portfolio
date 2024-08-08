@@ -19,7 +19,7 @@
 
 .preview {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 90%;
     font-size: 1.2em;
     color: black;
