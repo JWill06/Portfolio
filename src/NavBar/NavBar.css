@@ -1,56 +1,61 @@
-/* NavBar.css */
-
 .nav {
   display: flex;
-  justify-content: end;
-  height: 8.9vh;
-  margin: 2em;
+  justify-content: space-between;
+  height: 9vh;
+  align-items: center;
   font-size: 24px;
-  margin-top: 0;
+  padding: 0 1em;
 }
 
 .menu-button {
   height: fit-content;
   cursor: pointer;
-  color: turquoise;
-  width: 6rem;
-  transform: rotate(360deg);
+  color: #B5E0E1;
+  width: 10rem;
+  background: none;
+  border: none;
   transition: transform 0.3s ease-in-out;
 }
 
-.menu-button-x {
-  width: 5rem;
-  color: turquoise;
-  height: fit-content;
-  transform: rotate(360deg);
-  transition: transform 0.3s ease-in-out;
+.menu-button svg {
+  width: 50%;
+  height: 50%;
+}
+
+.toggle-on {
+  transform: rotate(90deg);
+}
+
+.toggle-off {
+  transform: rotate(0deg);
 }
 
 .dropdown {
-  border: 2px solid red;
-  position: fixed;
-  z-index: 1;
-  top: 0%;
-  left: 80%;
-  width: fit-content;
-  height: 50%;
+  position: absolute;
+  top: 8;
+  right: 0;
   background-color: white;
-  border-radius: 2.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  font-size: 15px;
-  transform-origin: top;
-  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  opacity: 0;
+  width: fit-content;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.dropdown.expanded {
+  opacity: 1;
+  visibility: visible;
 }
 
 .nav-location {
   background: none;
   font-size: 1.5em;
-  padding: 1em;
+  padding: .5em;
   letter-spacing: 0.6em;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   text-decoration: none;
   color: #3B3937;
@@ -58,29 +63,29 @@
 
 .location-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
 .location-container span {
   flex-grow: 1;
-  text-align: right;
-  margin-right: 0.5em;
+  text-align: left;
+  margin-left: 0.5em;
 }
 
 .navIcon {
   width: 10%;
-  margin-left: 0.5em;
 }
 
-.expanded {
-  transform: rotate(180deg);
+.location-container span {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 0.5em;
+  width: fit-content;
 }
 
-.expanded .dropdown {
-  transform: translateY(50%);
-}
+
 
 
 

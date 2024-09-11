@@ -38,6 +38,12 @@
   color: black;
 }
 
+.homeHeader {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);

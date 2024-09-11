@@ -16,14 +16,13 @@ import { X } from 'lucide-react'
     const buttonDisplay = () => {
 
         return (
-            <div className={`dropdown ${navExpanded ? 'expanded' : ''}`}>
-                <X className="menu-button-x toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}/>
-                <NavLink to="/" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">
-          <div className="location-container">
-            <span>HOME</span>
-            <img className='navIcon' alt="home" src={home} />
-          </div>
-        </NavLink>
+          <div className={`dropdown ${navExpanded ? 'expanded' : ''}`} onClick={() => {setNavExpanded(!navExpanded)}}>
+          <NavLink to="/" className="nav-location">
+            <div className="location-container">
+              <span>HOME</span>
+              <img className='navIcon' alt="home" src={home} />
+            </div>
+          </NavLink>
 
         <NavLink to="/About" onClick={() => {setNavExpanded(!navExpanded)}} className="nav-location">
           <div className="location-container">
@@ -52,11 +51,13 @@ import { X } from 'lucide-react'
     return (
         <>
         <div className='nav'>
-            <NavLink className="nav-logo" to="/"></NavLink>
-            <Menu className="menu-button toggle-off" onClick={() => {setNavExpanded(!navExpanded)}}/>
-        </div>
-        {buttonDisplay()}
-        </>
+          <h1>JW</h1>
+        <button className={`menu-button ${navExpanded ? 'toggle-on' : 'toggle-off'}`} onClick={() => setNavExpanded(!navExpanded)}>
+          {navExpanded ? <X /> : <Menu />}
+        </button>
+      </div>
+      {buttonDisplay()}
+    </>
     );
     }
 
