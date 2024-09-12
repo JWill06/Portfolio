@@ -3,6 +3,7 @@ import css from '../images/icons8-css-100.svg'
 import html from '../images/icons8-html.svg'
 import react from '../images/icons8-react-js-40.png'
 import typescript from '../images/icons8-typescript-48.png'
+import rubyonrails from '../images/icons8-ruby-on-rails-32.png'
 import GitHub from '../images/icons8-github.svg'
 import { useNavigate } from 'react-router-dom'
 import { X } from 'lucide-react'
@@ -16,7 +17,8 @@ export const ProjectModal = ({project, setIsOpen}) => {
         { name: "CSS", icon: css },
         { name: "JavaScript", icon: js },
         { name: "React", icon: react },
-        { name: "Typescript", icon: typescript}
+        { name: "Typescript", icon: typescript},
+        { name: "Ruby on Rails", icon: rubyonrails}
     ]
     const handleClick = () => {
         navigate(project.repo_link)
@@ -35,6 +37,8 @@ export const ProjectModal = ({project, setIsOpen}) => {
                 return "Click on the hammers to see some flooring!";
             case "https://www.handmadebyhaylee.com/":
                 return "Click on the art to see some art!";
+            case "https://www.utahabalocator.com/":
+                return "Click the puzzle to find some providers!"
             default:
                 return "Click to view the deployed project!";
         }
@@ -54,6 +58,8 @@ export const ProjectModal = ({project, setIsOpen}) => {
                 return "🔨🔨";
             case "https://www.handmadebyhaylee.com/":
                 return "🧶🧶";
+            case "https://www.utahabalocator.com/":
+                return "🧩"
             default:
                 return "🔗";
         }
