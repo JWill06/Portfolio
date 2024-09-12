@@ -35,6 +35,10 @@
     animation: slideInFromLeft 1.5s ease-in-out forwards;
 }
 
+.button.homeButton:hover {
+  background-color: #B5E0E1;
+}
+
 .button.homeButton {
   text-decoration: none;
   background-color: white;

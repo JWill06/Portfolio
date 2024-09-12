@@ -1,6 +1,14 @@
 
 [
     {
+        "name": "UTAH ABA LOCATOR",
+        "id": "utahaba",
+        "description": "This was a full stack group project that was initially started by myself where my goal was to create a site for families to find ABA therapists in Utah and to allow providers to update their data as often as needed and to make it all consistent for each provider. It was a group effort with six total developers. Three frontend and three backend.",
+        "built": ["Typescript", "CSS", "React", "Ruby on Rails"],
+        "gif": "/utahABA.gif",
+        "deployed_link": "https://www.utahabalocator.com/"
+    },
+    {
         "name": "PORTERS FLOORING & REMODELING",
         "id": "portersflooring",
         "description": "This was a custom built website for a local flooring company. It allows users to see the different services they offer as well as some of their previous jobs and will allow users to get in contact with them.",
