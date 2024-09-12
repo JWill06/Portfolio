@@ -1,6 +1,22 @@
 
 [
     {
+        "name": "PORTERS FLOORING & REMODELING",
+        "id": "portersflooring",
+        "description": "This was a custom built website for a local flooring company. It allows users to see the different services they offer as well as some of their previous jobs and will allow users to get in contact with them.",
+        "built": ["Typescript", "CSS", "React"],
+        "gif": "/porters.gif",
+        "deployed_link": "https://www.portersflooring-remodeling.com/"
+    },
+    {
+        "name": "HANDMADE BY HAYLEE",
+        "id": "handmadebyhaylee",
+        "description": "This was a custom built website for my wife who has a small business making custom items such as crotcheted items, knitted items, embroidered items, and custom digital portraits. It allows users to see her previous orders and will allow customers to get in contact with her.",
+        "built": ["Typescript", "CSS", "React"],
+        "gif": "/hbh.gif",
+        "deployed_link": "https://www.handmadebyhaylee.com/"
+    },
+    {
         "name": "REMOTE JOB LOCATOR",
         "id": "remotejoblocator",
         "description": "An application that updates with newly listed remote job postings. Users are able to search for posting either by the title of the job or location for the candidate or both. This was a solo project and took a total of 40 hours to complete",

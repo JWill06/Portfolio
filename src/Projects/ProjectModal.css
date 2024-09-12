@@ -53,13 +53,13 @@ position: fixed;
 }
 
 .link {
-    width: 5%;
-    height: 10%;
+    width: 3%;
+    height: 3%;
     color: white;
 }
 
 .deployedLink {
-    font-size: 80px;
+    font-size: 60px;
     text-decoration: none;
     margin-bottom: 15%;
 }
