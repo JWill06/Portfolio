@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import js from '../images/icons8-js.svg'
 import css from '../images/icons8-css-100.svg'
 import html from '../images/icons8-html.svg'
@@ -30,7 +29,7 @@ export const ProjectModal = ({project, setIsOpen}) => {
             <div className='text'>
             <X className='close' onClick={() => setIsOpen(false)} />
                     <p>{project.description}</p>
-                    <h2>Built with</h2>
+                    <h2>Tech Stack</h2>
                     {frameWorks.map(({ name, icon }) => 
                         project.built.includes(name) ? (
                             <img className='icons' alt={name} src={icon} />
@@ -38,14 +37,21 @@ export const ProjectModal = ({project, setIsOpen}) => {
                     )}
                 <div>
                     </div>
-                    <p><strong>GitHub repo link, click on the GitHub icon below!</strong></p>
-                    <a href={project.repo_link} onClick={handleClick}>
+                    <div className='linksContainer'>
+                        <div className='repoLinkContainer'>
+                        <p><strong>GitHub repo link, click on the GitHub icon below!</strong></p>
+                        <a href={project.repo_link} onClick={handleClick}>
                         <img className='link' alt='github link'src={GitHub} />
                     </a>
+                    </div>
+                    <div className='deployedLinksContainer'>
+
                     {project.deployed_link === "https://jwill06.github.io/tic-tac-toe/" ? <div><p><strong>Click on the Taco emoji to play!</strong></p> <a className="deployedLink" href={project.deployed_link}>🌮</a></div> : null}
                     {project.deployed_link === "https://jwill06.github.io/coloRandom/" ? <div><p><strong>Click on any Colored Box emoji to make some pallettes!</strong></p> <a className="deployedLink" href={project.deployed_link}>🟦 🟧 🟨 🟩</a></div> : null}
                     {project.deployed_link === "https://art-collector-ten.vercel.app" ? <div><p><strong>Click on the art to see some art!</strong></p> <a className="deployedLink" href={project.deployed_link}>🖼️</a></div> : null}
                     {project.deployed_link === "https://remote-job-locator.vercel.app/" ? <div><p><strong>Click on the remote workers to find some postings!</strong></p> <a className="deployedLink" href={project.deployed_link}>👨🏽‍💻👨🏻‍💻👩🏼‍💻👩🏽‍💻</a></div> : null}
+                    </div>
+                    </div>
                 </div>
             </div>
     </div>

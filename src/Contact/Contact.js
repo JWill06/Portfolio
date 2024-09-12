@@ -1,7 +1,6 @@
 import React, {  useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
-import emailIcon from '../images/icons8-gmail-200.svg'
 import GitHub from '../images/icons8-github.svg'
 import linkedIn from '../images/icons8-linkedin.svg'
 

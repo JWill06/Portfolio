@@ -8,6 +8,15 @@
     width: 100%;
     h1 {
         font-size: 70px;
+        color: #203845;
         font-family: "Montserrat", sans-serif;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Work {
+      h1 {
+        font-size: 40px;
+      }
     }
   }
