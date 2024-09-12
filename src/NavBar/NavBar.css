@@ -4,7 +4,7 @@
   height: 8vh;
   align-items: center;
   font-size: 24px;
-  padding: 0 1em;
+  padding: .5em 1em;
 }
 
 .menu-button {
@@ -59,6 +59,11 @@
   align-items: center;
   text-decoration: none;
   color: #3B3937;
+}
+
+.nav-location:hover {
+  color: #B5E0E1;
+  border-bottom: 2px solid #B5E0E1;
 }
 
 .location-container {

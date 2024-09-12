@@ -4,8 +4,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #B5E0E1;;
+    background-color: #B5E0E1;
     width: 100%;
+    overflow-x: hidden;
     h1 {
         font-size: 70px;
         color: #203845;
