@@ -6,9 +6,8 @@ const Work = () => {
 
     return (
         <div className='Work'>
-            <h1>MY WORK</h1>
+            <h1>MY PROJECTS</h1>
             {data.map(project => <Projects project={project}/>)}
-
         </div>
     )
 }

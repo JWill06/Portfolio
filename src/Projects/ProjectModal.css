@@ -1,0 +1,169 @@
+.modal {
+position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.textContainer {
+    border-radius: 16px;
+    background-color: white;
+    padding: 2rem;
+    width: 50%;
+    height: fit-content;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1001;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.textContainer  h1{
+    font-size: 2em;
+}
+
+.text h1,
+.text h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+  }
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    cursor: pointer;
+    border-radius: 50%;
+    color: red;
+}
+
+.close:hover {
+    background-color: rgb(117, 108, 108);
+}
+
+.link {
+    width: 5%;
+    height: 10%;
+    color: white;
+}
+
+.deployedLink {
+    font-size: 80px;
+    text-decoration: none;
+    margin-bottom: 15%;
+}
+
+@media (max-width: 768px) {
+    .textContainer {
+        width: 80%;
+    }
+    .textContainer h1 {
+        font-size: 1.5em;
+    }
+    .textContainer h2 {
+        font-size: 1em;
+    }
+    .deployedLink {
+        font-size: 40px;
+    }
+    .link {
+        width: 12%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .textContainer {
+        width: 60%;
+    }
+    .link {
+        width: 12%;
+    }
+}
+
+@media (max-height: 1558px) and (min-width: 975px) {
+    .link {
+        width: 10%;
+    }
+}
+
+@media (min-width: 1080px) and (max-height: 820px) and (orientation: landscape){
+    .textContainer {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1040px) and (max-height: 435px) and (orientation: landscape){
+    .textContainer {
+        width: 60%;
+    }
+}
+
+@media (min-width: 786px) and (max-height: 435px) and (orientation: landscape){
+    .textContainer {
+        width: 90%;
+    }
+    .textContainer h1 {
+        font-size: 1.5em;
+    }
+    .textContainer h2 {
+        font-size: 1em;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .deployedLink {
+        font-size: 40px;
+    }
+    .link {
+        height: 5rem;
+    }
+    .icons {
+        width: 4%;
+    }
+    .linksContainer {
+        display: flex;
+        width: 100%;
+        justify-items: center;
+    }
+    .repoLinkContainer {
+        width: 50%;
+    }
+    .deployedLinksContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1066px) and (max-height: 393px) and (orientation: landscape){
+    .textContainer {
+        width: 80%;
+    }
+    .textContainer h1 {
+        font-size: 1.2em;
+    }
+    .textContainer h2 {
+        font-size: 1em;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .deployedLink {
+        font-size: 40px;
+    }
+    .link {
+        height: 5rem;
+    }
+    .icons {
+        width: 4%;
+    }
+}

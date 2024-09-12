@@ -1,7 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, {  useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
-import emailIcon from '../images/icons8-gmail-200.svg'
 import GitHub from '../images/icons8-github.svg'
 import linkedIn from '../images/icons8-linkedin.svg'
 
@@ -38,7 +37,7 @@ const Contact = () => {
 
     return (
         <div className='Contact'>
-            <h2>Click either icon below to see my GitHub or LinkedIn!</h2>
+            <h2>Let's connect!</h2>
             <div className='accounts'>
             <a href="https://github.com/JWill06">
                 <img  className='socials' src={GitHub} alt="Link to GitHub profile" />
@@ -49,7 +48,6 @@ const Contact = () => {
             </div>
             <h2 className='contactHeader'>Or feel free to contact me!</h2>
             <div className='formWrapper'>
-            <img className='gmailImg' src={emailIcon} alt="Gmail Icon"></img>
             <form onSubmit={sendEmail} className='emailForm'>
                 <label htmlFor="name"><strong>Name:</strong></label>
                 <input 
