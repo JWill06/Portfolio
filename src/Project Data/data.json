@@ -1,12 +1,12 @@
 
 [
     {
-        "name": "UTAH ABA LOCATOR",
-        "id": "utahaba",
+        "name": "Autism Services Locator",
+        "id": "autismserviceslocator",
         "description": "This was a full stack group project that was initially started by myself where my goal was to create a site for families to find ABA therapists in Utah and to allow providers to update their data as often as needed and to make it all consistent for each provider. It was a group effort with six total developers. Three frontend and three backend.",
         "built": ["Typescript", "CSS", "React", "Ruby on Rails"],
-        "gif": "/utahABA.gif",
-        "deployed_link": "https://www.utahabalocator.com/"
+        "gif": "/ASLGif.gif",
+        "deployed_link": "https://www.autismserviceslocator.com/"
     },
     {
         "name": "PORTERS FLOORING & REMODELING",
