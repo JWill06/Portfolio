@@ -11,6 +11,7 @@ import './ProjectModal.css'
 
 
 export const ProjectModal = ({project, setIsOpen}) => {
+    // Force cache refresh
     const navigate = useNavigate()
     const frameWorks = [
         { name: "HTML", icon: html },
