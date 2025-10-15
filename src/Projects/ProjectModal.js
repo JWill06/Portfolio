@@ -38,7 +38,7 @@ export const ProjectModal = ({project, setIsOpen}) => {
                 return "Click on the hammers to see some flooring!";
             case "https://www.handmadebyhaylee.com/":
                 return "Click on the art to see some art!";
-            case "https://autismserviceslocator.com":
+            case "https://www.autismserviceslocator.com":
                 return "Click the puzzle to find some providers!";
             default:
                 return "Click to view the deployed project!";
@@ -59,7 +59,7 @@ export const ProjectModal = ({project, setIsOpen}) => {
                 return "🔨🔨";
             case "https://www.handmadebyhaylee.com/":
                 return "🧶🧶";
-            case "https://autismserviceslocator.com":
+            case "https://www.autismserviceslocator.com":
                 return "🧩";
             default:
                 return "🔗";
